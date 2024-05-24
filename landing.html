@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estación SETARA</title>
+
+    <!-- Ligas TAVK2-->
+    <link rel="stylesheet" href="css/estilos_landing.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <script src="js/funciones_landing.js"></script>
+
+</head>
+
+<body>
+
+    <div class="LADING" id="LADING">
+        <div class="WEB_PAGE">
+            <img id="fondo1" src="img/fondo.png" draggable="false">
+
+            <div class="botones">
+                <div class="btn_inicio">
+                    <img src="img/btn_inicio.png" draggable="false" onclick="alumnos()">
+                </div>
+
+                <div class="btn_registro">
+                    <img src="img/btn_registro.png" draggable="false" onclick="docentes()">
+                </div>
+
+                <div class="btn_contacto">
+                    <img src="img/btn_contacto.png" draggable="false" onclick="contacto()">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        let screen = document.getElementById("LADING");
+        screen.addEventListener("dblclick", () => {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen();
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                }
+            }
+        })
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+/* Fuentes */
+@font-face {
+  font-family: 'ProximaNovaBlack';
+  src: url('../fonts/ProximaNovaBlack.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNovaBold';
+  src: url('../fonts/ProximaNovaBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNovaReg';
+  src: url('../fonts/ProximaNovaReg.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNovaLight';
+  src: url('../fonts/ProximaNovaLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/* Fuentes "Tierra en ventura Kids"  (PARTE 1) */
+@font-face {
+  font-family: 'BreeCYR-Extrabold';
+  src: url('../fonts/BreeCYR-Extrabold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BreeCYR-Bold';
+  src: url('../fonts/BreeCYR-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BreeCYR-Regular';
+  src: url('../fonts/BreeCYR-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BreeCYR-Light';
+  src: url('../fonts/BreeCYR-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Fuentes "Tierra en ventura Kids"  (PARTE 2) */
+@font-face {
+  font-family: 'Bree Serif ExtraBold';
+  src: url('../fonts/BreeSerif-ExtraBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BreeSerif-Regular';
+  src: url('../fonts/BreeSerif-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bree Serif Light';
+  src: url('../fonts/BreeSerif-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bree Serif Lt Italic';
+  src: url('../fonts/BreeSerif-Lt-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bree Serif Eb Italic';
+  src: url('../fonts/BreeSerif-Eb-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

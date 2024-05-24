@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  /* border: solid 5px yellowgreen; */
+}
+
+.LADING {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  /* border: solid 5px blue; */
+}
+
+.WEB_PAGE {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  /* border: solid 5px yellow; */
+}
+
+#fondo1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* border: solid 5px red; */
+}
+
+.btn_inicio img {
+  position: absolute;
+  z-index: 1;
+  max-width: 100%;
+  width: 25%;
+  height: auto;
+  bottom: 7.5%;
+  left: 30%;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  /* border: dashed 2px red; */
+}
+
+.btn_registro img {
+  position: absolute;
+  z-index: 1;
+  max-width: 100%;
+  width: 32.5%;
+  height: auto;
+  bottom: 7.5%;
+  right: 10%;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  /* border: dashed 2px red; */
+}
+
+.btn_contacto img {
+  position: absolute;
+  z-index: 1;
+  max-width: 100%;
+  width: 15.5%;
+  height: auto;
+  bottom: 4%;
+  right: 35.5%;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  /* border: dashed 2px red; */
+}
+
+.botones img:hover {
+  transform: scale(1.05);
+}
